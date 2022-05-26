@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 0 50px;
+  background-color:#abcea1;
+  overflow: hidden;
+  display:inline;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0 50px;
+}
+
+.header {
+  color:black;
+  font-size: 19px;
+  background-color:bisque;
+  padding: 2px;
+  text-align: center;
+}
+
+.container {
+  display:flex;
+  gap: 50px;
+  padding: 0 30%;
+}
+
+#posts {
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
